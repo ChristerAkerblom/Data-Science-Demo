@@ -1,8 +1,6 @@
 name: data-science-demo
 on:
   push:
-    #paths:
-    # - 'data_science_notebook.ipynb'
     paths-ignore:
       - 'README.MD'
       - 'LICENSE'
