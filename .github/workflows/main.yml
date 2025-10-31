@@ -1,6 +1,13 @@
 name: data-science-demo
-on: [push]
-jobs:
+on:
+  push:
+    #paths:
+    # - 'data_science_notebook.ipynb'
+    paths-ignore:
+      - 'README'
+      - 'License'
+
+jobs:  
   build:
     runs-on: ubuntu-latest
     steps:
