@@ -15,5 +15,5 @@ python-lsp-server
 ipykernel
 gymnasium
 pygame
-Pillow
+#Pillow
 torch
