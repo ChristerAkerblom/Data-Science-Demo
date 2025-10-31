@@ -2,8 +2,8 @@ name: data-science-demo
 on:
   push:
     paths-ignore:
-      - 'README.MD'
-      - 'LICENSE'
+      - './README.MD'
+      - './LICENSE'
 
 jobs:  
   build:
