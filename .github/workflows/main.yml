@@ -4,8 +4,8 @@ on:
     #paths:
     # - 'data_science_notebook.ipynb'
     paths-ignore:
-      - 'README'
-      - 'License'
+      - 'README.MD'
+      - 'LICENSE'
 
 jobs:  
   build:
